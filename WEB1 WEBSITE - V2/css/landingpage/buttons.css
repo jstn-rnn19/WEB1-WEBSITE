@@ -1,0 +1,100 @@
+/* #btn-login {
+  position: relative;
+  z-index: 1;
+  border: 2px solid #3d3c4a; 
+  overflow: hidden;
+  transition: color 0.4s;
+  width: fit-content;
+  margin: auto;
+}
+#btn-login::after {
+  background-color: #3d3c4a;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  left: -35%;
+  top: 0;
+  transform: skew(30deg);
+  transition-duration: 0.4s;
+  transform-origin: top left;
+  width: 0;
+}
+#btn-login:hover::after {
+  height: 100%;
+  width: 135%;
+  
+}
+#btn-login:hover {
+  color: #1fcc97 !important;
+  border: 2px solid #1fcc97;
+} */
+
+#btn-calculating {
+  position: relative;
+  z-index: 1;
+  border: 2px solid #e69d00;
+  color: #FDF5E6; 
+  font-weight: 500;
+  overflow: hidden;
+  transition: color 0.4s;
+  background-color: #F0A500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#btn-calculating::after {
+  background-color: #EBF5F3;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  left: -35%;
+  top: 0;
+  transform: skew(-35deg);
+  transition-duration: 0.4s;
+  transform-origin: bottom right;
+  width: 0;
+}
+#btn-calculating:hover::after {
+  height: 100%;
+  width: 135%;
+  
+}
+#btn-calculating:hover {
+  transform: translateY(-2px);
+  color: #1C3D5A;
+  border: 2px solid #1C3D5A;
+  
+}
+
+#btn-features {
+  position: relative;
+  z-index: 1;
+  border: 2px solid #1C3D5A; 
+  overflow: hidden;
+  transition: color 0.4s;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#btn-features::after {
+  background-color: #F0A500;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  left: -35%;
+  top: 0;
+  transform: skew(30deg);
+  transition-duration: 0.4s;
+  transform-origin: top left;
+  width: 0;
+}
+#btn-features:hover::after {
+  height: 100%;
+  width: 135%;
+  
+}
+#btn-features:hover {
+  color: #FDF5E6 !important;
+  border: 2px solid #F0A500;
+  box-shadow: 0 0 30px rgba(70, 69, 69, 0.329);
+  transform: translateY(-2px);
+}
