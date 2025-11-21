@@ -1,0 +1,10 @@
+.py-5 {
+  padding-top:  10rem !important;
+}
+body {
+  background-color: rgba(253, 245, 230, 0.4) !important;
+  font-family: poppins ;
+}
+a {
+  font-weight: 500;
+}

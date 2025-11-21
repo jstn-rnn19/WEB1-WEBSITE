@@ -1,0 +1,39 @@
+::selection {
+  background-color: #F0A500;
+  color: #0A0909; 
+}
+
+body {
+  background-color: rgba(253, 245, 230, 0.4) !important;
+}
+.bg-dark {
+  background-color: rgba(253, 245, 230, 0.4) !important;
+}
+
+.custom-color{
+  color: #F0A500;
+}
+.text-light {
+  color: #1C3D5A !important;
+}
+
+/* cards */
+.card-custom {
+  background-color: rgba(82, 56, 0, 0.6);
+  
+}
+.card-body p{
+  color: #FDF5E6 !important;
+}
+.card-body strong {
+  color: #F0A500 !important;
+}
+
+
+footer {
+  background: #1C3D5A;
+  color: white;
+}
+footer a {
+  color: #ffd700;
+}

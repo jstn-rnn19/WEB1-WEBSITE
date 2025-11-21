@@ -1,0 +1,80 @@
+::selection {
+  background-color: #F0A500;
+  color: #0A0909; 
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: poppins ;
+
+}
+#home {
+  padding: 100px 20px;
+}
+.h1-color {
+  color: #F0A500 !important;
+  font-weight: 600 !important;
+}
+h1 {
+  color: #1C3D5A !important;
+}
+h3 {
+  color: #F0A500;
+}
+a {
+  font-weight: 500;
+}
+p {
+  color: #1C3D5A !important;
+}
+
+
+
+/* why choose us */
+.features {
+  padding: 50px 20px;
+  background: #fff;
+  text-align: center;
+}
+.features h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #F0A500;
+}
+.feature-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.feature-box {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  transition: transform 0.3s;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(54, 54, 54, 0.473);
+}
+.feature-box h3 {
+  margin-bottom: 10px;
+  color: #004aad;
+}
+
+  /* footer */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  margin: 0;
+  }
+  footer a {
+  text-decoration: none;
+  }
+  footer a:hover {
+  text-decoration: underline;
+  }
